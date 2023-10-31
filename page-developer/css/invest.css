@@ -1,0 +1,67 @@
+@media screen and (min-width: 992px){
+    header nav ul li:last-child {
+        margin-left: 45px;
+    }
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.myBtnContainer{
+    text-align: center;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+  border: 1.5px solid #ccc;
+}
+
+.content:hover {
+    background-color: white;
+    padding: 10px;
+    border: 2.5px solid #EEAD38;
+  }
+
+.content p{
+    font-size: 18px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */  
+  .btn:hover {
+    background-color: #0D0000;
+    color: #fff;
+  }
+  
+  .btn.active {
+    border: 1px #EEAD38 solid;
+    background-color: #fff;
+    color: #EEAD38;
+  }

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karimpol Group</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css?family=Exo+2:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=latin-ext"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    
+
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-wrapper">
+                <a class="logo" href="home.html">
+                    <img src="assets/icons/logo-karimpol.svg" alt="Karimpol Group" title="Karimpol Group">
+                </a>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="invest.html">Mieszkania</a>
+                        </li>
+                        <li>
+                            <a href="benefits.html">Strefa korzyści</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Kontakt</a>
+                        </li>
+                        <li>
+                            <button type="button" class="btn">
+                                <a href="contact.html">Znajdź swoje mieszkanie</a>
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="mobile-menu-toggle">
+                    <img src="assets/icons/menu_hamburger.png" alt="Mobile menu toggle" title="Mobile menu toggle">
+                </button>
+            </div>
+        </div>
+    </header>
+    <section class="banner" id="home">
+        <!-- <iframe  src="https://player.vimeo.com/video/825935082" frameborder="0"></iframe> -->
+        <h1>Przestrzeń z widokiem na przyszłość</h1>
+        <h3>Znajdź u nas swoje wymarzone mieszkanie</h3>
+        <button type="button" class="btn video-btn" data-toggle="modal"
+            data-src="https://player.vimeo.com/video/261184753?h=72ac0b1f6d&title=0&byline=0&portrait=0"
+            data-target="#myModal">
+            Oglądaj teraz
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" aria-hidden="true" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalLabel">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-bs-toggle="modal" data-bs-dismiss="modal"
+                            aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <!-- 16:9 aspect ratio -->
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" id="video"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="steps" class="steps">
+        <h2>Interesuje Cię zakup mieszkania w Warszawie lub w Krakowie?</h2>
+        <h5>Z nami to naprawdę proste. Pomożemy Ci na każdym etapie procesu.</h5>
+        <div class="container steps-slider-wrapper">
+            <div class="steps-wrapper">
+                <div class="step-item firstItem">
+                    <img src="assets/icons/First-step.webp" alt="">
+                    <h4> Wybierz mieszkanie</h4>
+                    <p>W naszej ofercie znajdziesz wiele osiedli i szeroki wybór mieszkań.
+                        Podczas spotkania nasi doradcy pomogą Ci wybrać takie mieszkanie,
+                        które najlepiej sprosta Twoim potrzebom.</p>
+                </div>
+                <div class="step-item">
+                    <img src="assets/icons/Second-step.webp" alt="">
+                    <h4>Zarezerwuj</h4>
+                    <p>Aby mieć pewność, że klucze do wybranego przez Ciebie mieszkania trafią właśnie w Twoje ręce,
+                        możemy zarezerwować je dla Ciebie na samym początku procesu zakupu.</p>
+                </div>
+                <div class="step-item">
+                    <img src="assets/icons/Third-step.webp" alt="">
+                    <h4>Uzyskaj kredyt</h4>
+                    <p>Na dział kredytowy pomoże Ci w uzyskaniu najbardziej korzystnego
+                        kredytu hipotecznego na Twoje przyszłe mieszkanie.</p>
+                </div>
+                <div class="step-item">
+                    <img src="assets/icons/Fourth-step.webp" alt="">
+                    <h4>Odbierz mieszkanie</h4>
+                    <p>Ostatni krok! Po odbiorze mieszkania, przy pomocy naszych specjalistów, Twoje mieszkanie będzie
+                        czekało na wprowadzenie.</p>
+                </div>
+            </div>
+            <a href="contact.html" class="section__button">Zapytaj o kredyt</a>
+        </div>
+    </section>
+    <section id="trust" class="articles">
+        <div class="container-full__width">
+            <div class="container">
+                <article>
+                    <div class="img" style="background-image: url('assets/images/Wizualizacja-inwestycji-Marinus-w-Gdansku.webp');"></div>
+                    <div class="content">
+                        <div class="text">
+                            <h6>Zaufanie</h6>
+                            <h5>Dobrze zaprojektowane miejsce do życia</h5>
+                            <p>
+                                Nasze osiedla realizujemy w dzielnicach o
+                                rozbudowanej infrastrukturze lokalnej, aby
+                                nasi klienci mieli dostęp do sklepów,
+                                restauracji, placówek edukacyjnych i ochrony zdrowia. </br></br>
+                                Z myślą o rodzinach z dziećmi i
+                                miłośnikach aktywnego trybu życia dbamy również o to,
+                                aby nasze projekty powstawały w bezpośrednim
+                                sąsiedztwie parków, terenów zielonych i rekreacyjnych.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <div class="img" style="background-image: url('assets/images/3_skyliner_by_karimpol.jpg');"></div>
+                    <div class="content">
+                        <div class="text">
+                            <h6>Architektura</h6>
+                            <h5>Funkcjonalne mieszkania w najlepszym wydaniu</h5>
+                            <p>
+                                Tworzymy nowoczesne i przyjazne budynki mieszkalne, 
+                                które ze względu na użycie najnowszych technologii i wysokiej jakości materiałów są ponadczasowe. Naszą specjalnością są kreatywne i funkcjonalne inwestycje mieszkaniowe w przystępnej cenie. 
+                                Realizujemy przestrzenie, które potrafią dać wytchnienie i spokój.
+                            </p>
+                            <p class="sub__text">
+                                Współpracujemy z renomowanymi pracowniami architektonicznymi 
+                                oraz sprawdzonymi generalnymi wykonawcami. 
+                                Wszystko po to, aby zapewnić naszym klientom najwyższą jakość.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <h2>Poznaj nas</h2>
+        <div class="container">
+            <div class="thought">
+                <q>Jesteśmy deweloperem otwartym na tworzenie przestrzeni dla ciebie. Nasze inwestycje znajdziesz w
+                    Krakowie i Warszawie</q>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Znajdź nas</h2>
+        <div class="wrap-map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d20510.21506680591!2d20.980389!3d50.015537!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473d8357c46190e5%3A0xb16537621f828ab7!2saleja%20Solidarno%C5%9Bci%2020%2C%2033-100%20Tarn%C3%B3w%2C%20Poland!5e0!3m2!1sen!2sus!4v1601550838538!5m2!1sen!2sus"></iframe>
+        </div>
+    </section>
+    <footer class="information ">
+        <div class="wrapper container">
+            <div class="useful">
+                <div class="useful-contact">
+                    <h4>Karimpol group</h4>
+                    <ul>
+                        <li>ul. Chochołowka 28,</li>
+                        <li>43-322 Słupsk</li>
+                        <li>+48 34-53-45-567</li>
+                        <li>kontakt@karimpol.com</li>
+                        <li>NIP: 899-25-62-750</li>
+                        <li>REGON: 020246398</li>
+                        <li>
+                            <a href="https://www.google.pl/maps/place/S%C5%82upsk/@54.4606465,16.9931164,13z/data=!3m1!4b1!4m5!3m4!1s0x46fe1a0a2a9b51eb:0xd53110a6cfb1811f!8m2!3d54.464148!4d17.0284824"
+                                target="_blank">Znajdź
+                                nas</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="useful">
+                <h4>Siedziba zarządu</h4>
+                <ul>
+                    <li>ul. Wielicka 34/4,</li>
+                    <li>30-717 Kraków</li>
+                    <li>+48 34-53-45-500</li>
+                    <li>zarzad@karimpol.com</li>
+                    <li>
+                        <a href="https://www.google.pl/maps/dir/Wielicka,+Krak%C3%B3w//@50.0179225,19.9815041,15z/data=!4m8!4m7!1m5!1m1!1s0x4716436114f1cf93:0x529248274235c731!2m2!1d19.9902589!2d50.017909!1m0"
+                            target="_blank">Znajdź
+                            nas</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="useful">
+                <h4>Karimpol</h4>
+                <ul>
+                    <li>O nas</li>
+                    <li>Zarząd</li>
+                    <li>Statuty i regulaminy</li>
+                    <li>Kariera</li>
+                </ul>
+            </div>
+            <div class="useful">
+                <h4>Nawigacja</h4>
+                <ul>
+                    <li><a href="#home">Start</a></li>
+                    <li><a href="#trust">Nasze atuty</a></li>
+                    <li><a href="#steps">Pierwsze mieszkanie</a></li>
+                    <li><a href="#about">O nas</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+<script src="js/scripts-menu.js"></script>
+<script src="js/script.js"></script>
+</body>
+
+</html>
